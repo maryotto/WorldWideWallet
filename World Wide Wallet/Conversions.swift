@@ -14,6 +14,7 @@ class Conversions {
     
     
     var currencyToConvertTo = ""
+    var date = ""
     var currencyRate = 0.0
     var apiURL = "https://api.exchangeratesapi.io/latest?base=USD"
     
@@ -21,9 +22,10 @@ class Conversions {
         Alamofire.request(apiURL).responseJSON { response in
             switch response.result {
             case .success(let value):
-
+                
                 let json = JSON(value)
                 self.currencyRate = json["rates"][self.currencyToConvertTo].doubleValue
+                self.date = json["date"].stringValue
             case .failure(let error):
                 print("ERROR: \(error.localizedDescription) failed to get data from url \(self.apiURL)")
             }

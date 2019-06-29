@@ -7,22 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		363BEA9A22C55DDB0085B0EF /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363BEA9922C55DDB0085B0EF /* SplashScreenViewController.swift */; };
 		36405B9F22BFCE5C006745F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36405B9E22BFCE5C006745F1 /* AppDelegate.swift */; };
 		36405BA122BFCE5C006745F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36405BA022BFCE5C006745F1 /* ViewController.swift */; };
 		36405BA422BFCE5C006745F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36405BA222BFCE5C006745F1 /* Main.storyboard */; };
 		36405BA622BFCE5E006745F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36405BA522BFCE5E006745F1 /* Assets.xcassets */; };
 		36405BA922BFCE5E006745F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36405BA722BFCE5E006745F1 /* LaunchScreen.storyboard */; };
 		36405BB922BFD4D3006745F1 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36405BB822BFD4D3006745F1 /* DetailVC.swift */; };
-		36F5F2AE22C232C600FC1AA2 /* CurrencyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F5F2AD22C232C600FC1AA2 /* CurrencyInfo.swift */; };
 		36F5F2B222C2387E00FC1AA2 /* CurrencyListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F5F2B122C2387E00FC1AA2 /* CurrencyListVC.swift */; };
 		36F5F2B422C23CE800FC1AA2 /* CurrencyListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F5F2B322C23CE800FC1AA2 /* CurrencyListTableViewCell.swift */; };
 		36F5F2B922C2BC4800FC1AA2 /* Conversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F5F2B822C2BC4800FC1AA2 /* Conversions.swift */; };
 		36F5F2BD22C3CE0A00FC1AA2 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F5F2BC22C3CE0A00FC1AA2 /* TransactionTableViewCell.swift */; };
 		36F5F2BF22C3CFB200FC1AA2 /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F5F2BE22C3CFB200FC1AA2 /* Transactions.swift */; };
+		36F5F2C122C400FB00FC1AA2 /* AddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F5F2C022C400FB00FC1AA2 /* AddCardViewController.swift */; };
+		36F5F2C322C4019900FC1AA2 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F5F2C222C4019900FC1AA2 /* Card.swift */; };
 		FE91000119869BABAEFE6C61 /* Pods_World_Wide_Wallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B26A731F9851C76E4F2511 /* Pods_World_Wide_Wallet.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		363BEA9922C55DDB0085B0EF /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
 		36405B9B22BFCE5C006745F1 /* World Wide Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Wide Wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36405B9E22BFCE5C006745F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36405BA022BFCE5C006745F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,12 +34,13 @@
 		36405BA822BFCE5E006745F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36405BAA22BFCE5E006745F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36405BB822BFD4D3006745F1 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
-		36F5F2AD22C232C600FC1AA2 /* CurrencyInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyInfo.swift; sourceTree = "<group>"; };
 		36F5F2B122C2387E00FC1AA2 /* CurrencyListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListVC.swift; sourceTree = "<group>"; };
 		36F5F2B322C23CE800FC1AA2 /* CurrencyListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListTableViewCell.swift; sourceTree = "<group>"; };
 		36F5F2B822C2BC4800FC1AA2 /* Conversions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversions.swift; sourceTree = "<group>"; };
 		36F5F2BC22C3CE0A00FC1AA2 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
 		36F5F2BE22C3CFB200FC1AA2 /* Transactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
+		36F5F2C022C400FB00FC1AA2 /* AddCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardViewController.swift; sourceTree = "<group>"; };
+		36F5F2C222C4019900FC1AA2 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		76B26A731F9851C76E4F2511 /* Pods_World_Wide_Wallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_World_Wide_Wallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE33F35CF8A321607A1C645C /* Pods-World Wide Wallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Wide Wallet.release.xcconfig"; path = "Target Support Files/Pods-World Wide Wallet/Pods-World Wide Wallet.release.xcconfig"; sourceTree = "<group>"; };
 		C96DA5CEA1DD1C6F2B09A7F4 /* Pods-World Wide Wallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Wide Wallet.debug.xcconfig"; path = "Target Support Files/Pods-World Wide Wallet/Pods-World Wide Wallet.debug.xcconfig"; sourceTree = "<group>"; };
@@ -76,15 +80,17 @@
 			isa = PBXGroup;
 			children = (
 				36405B9E22BFCE5C006745F1 /* AppDelegate.swift */,
-				36405BA022BFCE5C006745F1 /* ViewController.swift */,
 				36F5F2BE22C3CFB200FC1AA2 /* Transactions.swift */,
 				36F5F2B822C2BC4800FC1AA2 /* Conversions.swift */,
+				36F5F2C222C4019900FC1AA2 /* Card.swift */,
+				36405BA022BFCE5C006745F1 /* ViewController.swift */,
+				36F5F2C022C400FB00FC1AA2 /* AddCardViewController.swift */,
 				36405BB822BFD4D3006745F1 /* DetailVC.swift */,
 				36F5F2B122C2387E00FC1AA2 /* CurrencyListVC.swift */,
 				36F5F2B322C23CE800FC1AA2 /* CurrencyListTableViewCell.swift */,
 				36F5F2BC22C3CE0A00FC1AA2 /* TransactionTableViewCell.swift */,
-				36F5F2AD22C232C600FC1AA2 /* CurrencyInfo.swift */,
 				36405BA222BFCE5C006745F1 /* Main.storyboard */,
+				363BEA9922C55DDB0085B0EF /* SplashScreenViewController.swift */,
 				36405BA522BFCE5E006745F1 /* Assets.xcassets */,
 				36405BA722BFCE5E006745F1 /* LaunchScreen.storyboard */,
 				36405BAA22BFCE5E006745F1 /* Info.plist */,
@@ -224,15 +230,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36F5F2AE22C232C600FC1AA2 /* CurrencyInfo.swift in Sources */,
 				36405BA122BFCE5C006745F1 /* ViewController.swift in Sources */,
 				36F5F2BD22C3CE0A00FC1AA2 /* TransactionTableViewCell.swift in Sources */,
 				36F5F2B222C2387E00FC1AA2 /* CurrencyListVC.swift in Sources */,
+				36F5F2C122C400FB00FC1AA2 /* AddCardViewController.swift in Sources */,
 				36F5F2B922C2BC4800FC1AA2 /* Conversions.swift in Sources */,
+				363BEA9A22C55DDB0085B0EF /* SplashScreenViewController.swift in Sources */,
 				36405BB922BFD4D3006745F1 /* DetailVC.swift in Sources */,
 				36F5F2BF22C3CFB200FC1AA2 /* Transactions.swift in Sources */,
 				36F5F2B422C23CE800FC1AA2 /* CurrencyListTableViewCell.swift in Sources */,
 				36405B9F22BFCE5C006745F1 /* AppDelegate.swift in Sources */,
+				36F5F2C322C4019900FC1AA2 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
